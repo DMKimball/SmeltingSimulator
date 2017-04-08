@@ -1,26 +1,46 @@
 fileFormatVersion: 2
-guid: 130f2b4a0c5fde54ea1d336e3501bf02
-timeCreated: 1491627670
-licenseType: Free
+guid: 36fab8a650f78e34a8a757675f3acd32
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Rocks_02
-    100004: Rocks_02_collider
+    100002: rocks_02
+    100004: default
+    100006: Rocks_02
+    100008: Rocks_02_collider
+    100010: Rock_02
+    100012: Rock_02_collider
     400000: //RootNode
-    400002: Rocks_02
-    400004: Rocks_02_collider
-    2300000: Rocks_02
-    2300002: Rocks_02_collider
-    3300000: Rocks_02
-    3300002: Rocks_02_collider
-    4300000: Rocks_02
-    4300002: Rocks_02_collider
+    400002: rocks_02
+    400004: default
+    400006: Rocks_02
+    400008: Rocks_02_collider
+    400010: Rock_02
+    400012: Rock_02_collider
+    2300000: rocks_02
+    2300002: default
+    2300004: Rocks_02
+    2300006: Rocks_02_collider
+    2300008: Rock_02
+    2300010: Rock_02_collider
+    3300000: rocks_02
+    3300002: default
+    3300004: Rocks_02
+    3300006: Rocks_02_collider
+    3300008: Rock_02
+    3300010: Rock_02_collider
+    4300000: rocks_02
+    4300002: default
+    4300004: Rocks_02
+    4300006: Rocks_02_collider
+    4300008: Rock_02
+    4300010: Rock_02_collider
+    6400000: rocks_02
+    9500000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
-    materialSearch: 1
+    materialSearch: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -55,11 +75,11 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -77,7 +97,7 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1
