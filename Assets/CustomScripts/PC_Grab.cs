@@ -36,7 +36,7 @@ public class PC_Grab : MonoBehaviour {
             FixedJoint joint = grabbableObject.GetComponent<FixedJoint>();
             Destroy(joint);
             grabbableObject.GetComponent<Rigidbody>().velocity = OVRInput.GetLocalControllerVelocity((side == HandSide.left) ? OVRInput.Controller.LTouch : OVRInput.Controller.RTouch);
-            grabbableObject = null;
+            //grabbableObject = null;
         }
     }
 
