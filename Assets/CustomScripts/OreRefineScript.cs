@@ -15,13 +15,14 @@ public class OreRefineScript : MonoBehaviour {
         currRefiningTime = 0;
     }
 
-    public void Refine(float time)
+    public bool Refine(float time)
     {
         currRefiningTime += time;
         //Debug.Log("Time accumulated: " + currRefiningTime);
-        if (currRefiningTime < refineTime) return;
+        if (currRefiningTime < refineTime) return false;
         Instantiate(prefab, transform.position, Quaternion.identity);
         spawner.DecrementPopulation();
         Destroy(gameObject);
+        return true;
     }
 }
