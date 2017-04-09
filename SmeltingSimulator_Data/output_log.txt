@@ -1,0 +1,53 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     4009 MB
+    Driver:   21.21.13.7849
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.019 seconds
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1200 59Hz; virtual: 1920x1200 at 0,0
+<RI> Initialized touch support.
+Overlay is using an unsupported compressed pixel format.UnloadTime: 0.804077 ms
+Unity v5.5.0f3, Oculus Utilities v1.13.0, OVRPlugin v1.10.0, SDK v1.13.0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No Oculus Rift App ID has been provided. Go to Oculus Avatar > Edit Configuration to supply one
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 2e6c -> priority: 1 
+  Thread -> id: 23c8 -> priority: 1 
+  Thread -> id: 25cc -> priority: 1 
+Tong hit something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Can't tong the something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

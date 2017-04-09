@@ -6,6 +6,8 @@
 !/Assets/
 !/ProjectSettings/
 !.gitignore
+!/SmeltingSimulator_Data/
+!SmeltingSimulator.exe
 
 # OS Stuff
 .DS_Store
