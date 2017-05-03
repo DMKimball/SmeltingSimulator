@@ -14,6 +14,8 @@ public class PC_Grab : MonoBehaviour {
     private GameObject grabbableObject;
     private bool grabbing;
 
+    private TongGrabScript tongs = null;
+
 	// Use this for initialization
 	void Awake () {
         hand_collider = GetComponent<Collider>();
@@ -23,20 +25,31 @@ public class PC_Grab : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(!grabbing && grabbableObject != null && ((side == HandSide.right && OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger) > 0) || (side == HandSide.left && OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) > 0)))
+		if(!grabbing && grabbableObject != null && ((side == HandSide.right && OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) > 0) || (side == HandSide.left && OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger) > 0)))
         {
             grabbing = true;
             FixedJoint joint = grabbableObject.AddComponent<FixedJoint>();
             joint.connectedBody = rbody;
+            tongs = grabbableObject.GetComponentInChildren<TongGrabScript>();
+            if (tongs != null)
+            {
+                tongs.enabled = true;
+                tongs.side = side;
+            }
         }
 
-        if (grabbing && ((side == HandSide.right && OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger) == 0) || (side == HandSide.left && OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) == 0)))
+        if (grabbing && ((side == HandSide.right && OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) == 0) || (side == HandSide.left && OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger) == 0)))
         {
             grabbing = false;
             FixedJoint joint = grabbableObject.GetComponent<FixedJoint>();
             Destroy(joint);
             grabbableObject.GetComponent<Rigidbody>().velocity = OVRInput.GetLocalControllerVelocity((side == HandSide.left) ? OVRInput.Controller.LTouch : OVRInput.Controller.RTouch);
             //grabbableObject = null;
+            if(tongs != null)
+            {
+                tongs.enabled = false;
+                tongs = null;
+            }
         }
     }
 

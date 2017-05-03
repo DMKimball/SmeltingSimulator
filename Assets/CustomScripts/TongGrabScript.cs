@@ -3,47 +3,54 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TongGrabScript : MonoBehaviour {
+    public PC_Grab.HandSide side;
 
-    public float grabForce = 50.0f;
+    public Rigidbody rbody;
+    public GameObject grabbableObject;
+    public bool grabbing;
 
-    private GameObject grabbedObject;
-    private bool grabbing;
-    private Rigidbody rbody;
-
-	// Use this for initialization
-	void Awake () {
-        grabbedObject = null;
-        rbody = GetComponent<Rigidbody>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    public void OnCollisionEnter(Collision collision)
+    // Use this for initialization
+    void Awake()
     {
-        Debug.Log("Tong hit something");
-        if (grabbedObject != null || !collision.gameObject.tag.Equals("Grabbable"))
-        {
-            Debug.Log("Can't tong the something");
-            return;
-        }
-
-        Debug.Log("Found Tongable object");
-
-        grabbedObject = collision.gameObject;
-        FixedJoint joint = grabbedObject.AddComponent<FixedJoint>();
-        joint.connectedBody = rbody;
-        //joint.breakForce = grabForce;
+        rbody = GetComponentInParent<Rigidbody>();
+        grabbing = false;
+        grabbableObject = null;
     }
 
-    public void Release()
+    // Update is called once per frame
+    void Update()
     {
-        if (grabbedObject == null) return;
+        if (!grabbing && grabbableObject != null && ((side == PC_Grab.HandSide.right && OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger) > 0) || (side == PC_Grab.HandSide.left && OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) > 0)))
+        {
+            grabbing = true;
+            FixedJoint joint = grabbableObject.AddComponent<FixedJoint>();
+            joint.connectedBody = rbody;
+        }
 
-        Destroy(grabbedObject.GetComponent<FixedJoint>());
-        grabbedObject.GetComponent<Rigidbody>().velocity = rbody.velocity;
-        grabbedObject = null;
+        if (grabbing && ((side == PC_Grab.HandSide.right && OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger) == 0) || (side == PC_Grab.HandSide.left && OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) == 0)))
+        {
+            grabbing = false;
+            FixedJoint joint = grabbableObject.GetComponentInParent<FixedJoint>();
+            Destroy(joint);
+            grabbableObject.GetComponent<Rigidbody>().velocity = OVRInput.GetLocalControllerVelocity((side == PC_Grab.HandSide.left) ? OVRInput.Controller.LTouch : OVRInput.Controller.RTouch);
+            //grabbableObject = null;
+        }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Tongs collided with object: " + other.name);
+        if (grabbing) return;
+        if (other.gameObject.GetComponent<Rigidbody>() != null && other.tag.Equals("Grabbable"))
+        {
+            Debug.Log("Tongs found grabbable object");
+            grabbableObject = other.gameObject;
+        }
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        if (grabbing) return;
+        if (other.gameObject == grabbableObject) grabbableObject = null;
     }
 }

@@ -1,4 +1,4 @@
-Initialize engine version: 5.5.0f3 (38b4efef76f0)
+Initialize engine version: 5.6.0f3 (497a0f351392)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -7,31 +7,29 @@ Direct3D:
     VRAM:     4009 MB
     Driver:   21.21.13.7849
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.VR.dll (this message is harmless)
-Loading D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
-- Completed reload, in  0.019 seconds
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\SmeltingSimulator\SmeltingSimulator_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.015 seconds
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1200 59Hz; virtual: 1920x1200 at 0,0
 <RI> Initialized touch support.
-Overlay is using an unsupported compressed pixel format.UnloadTime: 0.804077 ms
-Unity v5.5.0f3, Oculus Utilities v1.13.0, OVRPlugin v1.10.0, SDK v1.13.0.
+UnloadTime: 2.231882 ms
+Unity v5.6.0f3, Oculus Utilities v1.13.0, OVRPlugin v1.12.0, SDK v1.14.0.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -39,15 +37,160 @@ No Oculus Rift App ID has been provided. Go to Oculus Avatar > Edit Configuratio
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Setting up 3 worker threads for Enlighten.
-  Thread -> id: 2e6c -> priority: 1 
-  Thread -> id: 23c8 -> priority: 1 
-  Thread -> id: 25cc -> priority: 1 
-Tong hit something
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 2e2c -> priority: 1 
+  Thread -> id: 122c -> priority: 1 
+  Thread -> id: 2b50 -> priority: 1 
+  Thread -> id: 1c08 -> priority: 1 
+  Thread -> id: 1e84 -> priority: 1 
+  Thread -> id: 11b0 -> priority: 1 
+Crash!!!
+SymInit: Symbol-SearchPath: '.', symOptions: 534, UserName: 'dkimball'
+OS-Version: 6.1.7601 (Service Pack 1) 0x100-0x1
+D:\dkimball\SmeltingSimulator\SmeltingSimulator.exe:SmeltingSimulator.exe (000000013F1A0000), size: 23744512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.6.0.31247
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00000000778B0000), size: 1744896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\kernel32.dll:kernel32.dll (0000000077690000), size: 1175552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\KERNELBASE.dll:KERNELBASE.dll (000007FEFD620000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\HID.DLL:HID.DLL (000007FEFABC0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\msvcrt.dll:msvcrt.dll (000007FEFDD30000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.7601.23403
+C:\Windows\system32\USER32.dll:USER32.dll (00000000777B0000), size: 1024000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23594
+C:\Windows\system32\GDI32.dll:GDI32.dll (000007FEFDE20000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23739
+C:\Windows\system32\LPK.dll:LPK.dll (000007FEFE160000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23717
+C:\Windows\system32\USP10.dll:USP10.dll (000007FEFFAF0000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.626.7601.23688
+C:\Windows\system32\VERSION.dll:VERSION.dll (000007FEFC2E0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\ole32.dll:ole32.dll (000007FEFDF50000), size: 2080768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\RPCRT4.dll:RPCRT4.dll (000007FEFF940000), size: 1232896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\SHLWAPI.dll:SHLWAPI.dll (000007FEFF570000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\ADVAPI32.dll:ADVAPI32.dll (000007FEFE170000), size: 897024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\SYSTEM32\sechost.dll:sechost.dll (000007FEFDF30000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\SHELL32.dll:SHELL32.dll (000007FEFE250000), size: 14204928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23418
+C:\Windows\system32\OPENGL32.dll:OPENGL32.dll (000007FEE6370000), size: 1167360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\GLU32.dll:GLU32.dll (000007FEEA430000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\DDRAW.dll:DDRAW.dll (000007FEE64B0000), size: 987136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DCIMAN32.dll:DCIMAN32.dll (000007FEFA7D0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23717
+C:\Windows\system32\SETUPAPI.dll:SETUPAPI.dll (000007FEFDAF0000), size: 1929216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\CFGMGR32.dll:CFGMGR32.dll (000007FEFD5E0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\OLEAUT32.dll:OLEAUT32.dll (000007FEFF0B0000), size: 892928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23569
+C:\Windows\system32\DEVOBJ.dll:DEVOBJ.dll (000007FEFD8F0000), size: 106496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (000007FEFBE10000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\WINMM.dll:WINMM.dll (000007FEFADE0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\WS2_32.dll:WS2_32.dll (000007FEFDDD0000), size: 315392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23451
+C:\Windows\system32\NSI.dll:NSI.dll (000007FEFE150000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\IMM32.dll:IMM32.dll (000007FEFF080000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\MSCTF.dll:MSCTF.dll (000007FEFF190000), size: 1085440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23572
+C:\Windows\system32\DNSAPI.dll:DNSAPI.dll (000007FEFCBF0000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\IPHLPAPI.DLL:IPHLPAPI.DLL (000007FEF9FD0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\WINNSI.DLL:WINNSI.DLL (000007FEF9FC0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\WINHTTP.dll:WINHTTP.dll (000007FEF8830000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23451
+C:\Windows\system32\webio.dll:webio.dll (000007FEF87C0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\KATRK64.DLL:KATRK64.DLL (0000000180000000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.3.1.4
+C:\Windows\system32\WTSAPI32.dll:WTSAPI32.dll (000007FEFC8F0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Mono\mono.dll:mono.dll (000007FEDE370000), size: 2998272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.0.1
+C:\Windows\system32\PSAPI.DLL:PSAPI.DLL (0000000077A80000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSWSOCK.dll:MSWSOCK.dll (000007FEFCD70000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23451
+C:\Windows\system32\CRYPTBASE.dll:CRYPTBASE.dll (000007FEFD440000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\System32\wship6.dll:wship6.dll (000007FEFCD60000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (000007FEFB140000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Program Files\WIDCOMM\Bluetooth Software\btmmhook.dll:btmmhook.dll (000007FEEE5C0000), size: 258048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.5.1.2700
+C:\Windows\system32\d3d11.dll:d3d11.dll (000007FEEE170000), size: 1921024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16570
+C:\Windows\system32\dxgi.dll:dxgi.dll (000007FEF9320000), size: 380928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\system32\DXGIDebug.dll:DXGIDebug.dll (000007FEF9AA0000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.30.9600.17336
+C:\Windows\system32\WINTRUST.dll:WINTRUST.dll (000007FEFD910000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23566
+C:\Windows\system32\CRYPT32.dll:CRYPT32.dll (000007FEFD780000), size: 1495040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23566
+C:\Windows\system32\MSASN1.dll:MSASN1.dll (000007FEFD5A0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+D:\dkimball\SmeltingSimulator\SmeltingSimulator_Data\Plugins\OVRPlugin.dll:OVRPlugin.dll (000007FEDE660000), size: 2924544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.12.0.0
+C:\Windows\system32\WININET.dll:WININET.dll (000007FEFF5F0000), size: 3280896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.9600.18639
+C:\Windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll:api-ms-win-downlevel-user32-l1-1-0.dll (000007FEFD690000), size: 16384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll:api-ms-win-downlevel-shlwapi-l1-1-0.dll (000007FEFD5D0000), size: 16384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\system32\api-ms-win-downlevel-version-l1-1-0.dll:api-ms-win-downlevel-version-l1-1-0.dll (000007FEFD6C0000), size: 16384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll:api-ms-win-downlevel-normaliz-l1-1-0.dll (000007FEFD5C0000), size: 12288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\system32\normaliz.DLL:normaliz.DLL (0000000077A70000), size: 12288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\iertutil.dll:iertutil.dll (000007FEFF2A0000), size: 2924544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.9600.18639
+C:\Windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll:api-ms-win-downlevel-advapi32-l1-1-0.dll (000007FEFD950000), size: 20480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\system32\USERENV.dll:USERENV.dll (000007FEFD6A0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\profapi.dll:profapi.dll (000007FEFD5B0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\pdh.dll:pdh.dll (000007FEF8E40000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL:api-ms-win-core-synch-l1-2-0.DLL (000007FEF8AF0000), size: 12288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.10586.788
+C:\Windows\system32\DbgHelp.dll:DbgHelp.dll (000007FEF8D10000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.17514
+C:\Windows\system32\ntmarta.dll:ntmarta.dll (000007FEFBE30000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\WLDAP32.dll:WLDAP32.dll (000007FEFDCD0000), size: 335872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\CRYPTSP.dll:CRYPTSP.dll (000007FEFCDD0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23471
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (000007FEFCAD0000), size: 290816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\imagehlp.dll:imagehlp.dll (000007FEFF920000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\ncrypt.dll:ncrypt.dll (000007FEFCF50000), size: 327680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\bcrypt.dll:bcrypt.dll (000007FEFCF20000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\bcryptprimitives.dll:bcryptprimitives.dll (000007FEFCA10000), size: 311296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23451
+C:\Windows\system32\GPAPI.dll:GPAPI.dll (000007FEFC4E0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23452
+C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll:LibOVRRT64_1.dll (000007FEE5AA0000), size: 1945600 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.14.0.0
+C:\Windows\system32\nvapi64.dll:nvapi64.dll (000007FEFB1A0000), size: 4251648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 21.21.13.7849
+C:\Windows\system32\nvwgf2umx.dll:nvwgf2umx.dll (000007FEEB350000), size: 19398656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 21.21.13.7849
+C:\Windows\system32\nvspcap64.dll:nvspcap64.dll (000007FEF6E30000), size: 1884160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.1.2.31
+C:\Windows\system32\CLBCatQ.DLL:CLBCatQ.DLL (000007FEFDE90000), size: 626688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.8531.23403
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (000007FEF94E0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\wbemcomn.dll:wbemcomn.dll (000007FEF9450000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.17514
+C:\Windows\system32\RpcRtRemote.dll:RpcRtRemote.dll (000007FEFD4F0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.17514
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (000007FEF3220000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (000007FEF33E0000), size: 925696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\NTDSAPI.dll:NTDSAPI.dll (000007FEF35A0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (000007FEFBE90000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\System32\PROPSYS.dll:PROPSYS.dll (000007FEFBCE0000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.7601.23403
+C:\Windows\system32\wdmaud.drv:wdmaud.drv (000007FEF0690000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\ksuser.dll:ksuser.dll (00000000716B0000), size: 24576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\AVRT.dll:AVRT.dll (000007FEFBE80000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\AUDIOSES.DLL:AUDIOSES.DLL (000007FEFA510000), size: 323584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23471
+C:\Windows\system32\msacm32.drv:msacm32.drv (000007FEF0A50000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSACM32.dll:MSACM32.dll (000007FEF0A30000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\midimap.dll:midimap.dll (000007FEF04C0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\system32\xinput1_3.dll:xinput1_3.dll (0000000006400000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
+C:\Windows\system32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (000007FEF98A0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\dhcpcsvc.DLL:dhcpcsvc.DLL (000007FEF9820000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\SspiCli.dll:SspiCli.dll (000007FEFD3B0000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\credssp.dll:credssp.dll (000007FEFC9C0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\System32\wshtcpip.dll:wshtcpip.dll (000007FEFC220000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Program Files\Bonjour\mdnsNSP.dll:mdnsNSP.dll (0000000071B30000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.0.10
+C:\Windows\system32\rasadhlp.dll:rasadhlp.dll (000007FEF35D0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (000007FEF9B70000), size: 339968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Program Files\Oculus\Support\oculus-runtime\libovravatar.DLL:libovravatar.DLL (000007FEE5390000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.0.0
+C:\Windows\system32\MSVCP120.dll:MSVCP120.dll (000007FEF8710000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
+C:\Windows\system32\MSVCR120.dll:MSVCR120.dll (000007FEF83E0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
+C:\Windows\system32\Secur32.dll:Secur32.dll (000007FEFD1E0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\api-ms-win-downlevel-advapi32-l2-1-0.dll:api-ms-win-downlevel-advapi32-l2-1-0.dll (000007FEF0680000), size: 16384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll:api-ms-win-downlevel-ole32-l1-1-0.dll (000007FEFD770000), size: 16384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\system32\api-ms-win-downlevel-shlwapi-l2-1-0.dll:api-ms-win-downlevel-shlwapi-l2-1-0.dll (000007FEEDAE0000), size: 16384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.2.9200.16492
+C:\Windows\System32\netprofm.dll:netprofm.dll (000007FEF1D70000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\System32\nlaapi.dll:nlaapi.dll (000007FEFA9A0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\system32\urlmon.dll:urlmon.dll (000007FEFD960000), size: 1593344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.9600.18639
+C:\Windows\System32\npmproxy.dll:npmproxy.dll (000007FEF1D60000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23403
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.23403_none_e36ad4593102f066\Comctl32.dll:Comctl32.dll (000007FEFC5F0000), size: 2048000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.7601.23403
+C:\Windows\system32\schannel.DLL:schannel.DLL (000007FEFCB60000), size: 360448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23714
+C:\Windows\system32\cryptnet.dll:cryptnet.dll (000007FEF86A0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23566
+C:\Windows\system32\SensApi.dll:SensApi.dll (000007FEF8BB0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7600.16385
 
-Can't tong the something
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+========== OUTPUTING STACK TRACE ==================
 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F3523A4)
+0x000000013F3523A4 (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F367D2E)
+0x000000013F367D2E (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F3A46CB)
+0x000000013F3A46CB (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F9C2E42)
+0x000000013F9C2E42 (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F9C2EFD)
+0x000000013F9C2EFD (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F6655C3)
+0x000000013F6655C3 (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F1FB56B)
+0x000000013F1FB56B (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F1FB75A)
+0x000000013F1FB75A (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013F20F029)
+0x000000013F20F029 (SmeltingSimulator) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000013FBA9C6C)
+0x000000013FBA9C6C (SmeltingSimulator) 
+0x00000000776A59CD (kernel32) BaseThreadInitThunk
+0x00000000778DA561 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****
